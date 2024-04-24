@@ -1,8 +1,8 @@
 name: GitHub Readme YouTube Cards
 on:
   schedule:
-    # At 12:00 AM, only Friday
-    - cron: "0 0 * *FRI"
+    # Runs every hour, on the hour
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
