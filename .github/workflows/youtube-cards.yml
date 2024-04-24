@@ -16,3 +16,6 @@ jobs:
       - uses: DenverCoder1/github-readme-youtube-cards@main
         with:
           channel_id: UCNbsmTeTisXb_hFTrulkTCg
+          commet_tag_name: YOUTUBE-CARDS
+      - run: echo OUTPUT '${{ steps.youtube-cards.outputs.markdown}}'
+        shell: bash
